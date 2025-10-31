@@ -1,0 +1,55 @@
+body {
+background: white;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+padding: 20px;
+width: 90%;
+max-width: 400px;
+text-align: center;
+}
+
+h1 {
+color: #ff6f61;
+}
+
+#messages {
+border: 1px solid #ddd;
+height: 300px;
+overflow-y: auto;
+padding: 10px;
+text-align: left;
+margin-bottom: 10px;
+border-radius: 8px;
+background: #fdf6f0;
+}
+
+.message {
+margin-bottom: 8px;
+}
+
+.message b {
+color: #2563eb;
+}
+
+.input-area {
+display: flex;
+}
+
+.input-area input {
+flex: 1;
+padding: 8px;
+border-radius: 8px;
+border: 1px solid #ccc;
+}
+
+.input-area button {
+background: #ff6f61;
+color: white;
+border: none;
+border-radius: 8px;
+padding: 8px 12px;
+margin-left: 5px;
+cursor: pointer;
+}
+
+.hidden { display: none; }
